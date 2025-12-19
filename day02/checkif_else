@@ -1,0 +1,12 @@
+ #!/bin/bash
+
+<< if_else
+
+
+read -p "Enter number: " num
+
+if [[ &num / &2  ]]
+then 
+echo num is even
+else
+num is odd
